@@ -3,19 +3,19 @@
 % ---------------------------------------------------------------------
 % Quantlet:     SMSellipse
 % ---------------------------------------------------------------------
-SMSellipse computes ellipsoids for varying rho and d. rho
-#               is the direction and correlation parameter lying between -1 and 1. d
-#               is the radius of the ellipsoids. Given a covariance 
-#               structure Sigma, depending on rho, the ellipse function
-#               calculates the cholesky decomposition of Sigma = Q'*Q,
-#               resulting in a upper triangular matrix Q, which in turn
-#               is used for the transformation of the unit circle with
-#               respect to the direction. The shape of the ellipsoids
-#               is in accordance with the correlation parameter rho.
-# ---------------------------------------------------------------------
-# See also:     SMSellipse, SMSjordandec
-# ---------------------------------------------------------------------
-# Keywords:     ellipse, correlation, plot, covariance matrix,
+%               SMSellipse computes ellipsoids for varying rho and d. rho
+%               is the direction and correlation parameter lying between -1 and 1. d
+%               is the radius of the ellipsoids. Given a covariance 
+%               structure Sigma, depending on rho, the ellipse function
+%               calculates the cholesky decomposition of Sigma = Q'*Q,
+%               resulting in a upper triangular matrix Q, which in turn
+%               is used for the transformation of the unit circle with
+%               respect to the direction. The shape of the ellipsoids
+%               is in accordance with the correlation parameter rho.
+% ---------------------------------------------------------------------
+% See also:     SMSellipse, SMSjordandec
+% ---------------------------------------------------------------------
+% Keywords:     ellipse, correlation, plot, covariance matrix,
 %               Cholesky decomposition
 % ---------------------------------------------------------------------
 % Usage:        -
