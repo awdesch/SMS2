@@ -141,7 +141,9 @@
 %        df: 27
 %         s: 2.4168
 % ----------------------------------------------------------------------
-% Keywords:    regression, linear model, ANOVA
+% Keywords:    regression, linear model, analysis of variance, factor-model,
+%              linear model, variance, F-test, F-statistic, F test, mean,
+%              heteroskedasticity, test, Testing
 %-----------------------------------------------------------------------
 % See also:    SMScovbank, SMSdete2pull, SMSdeterpull, SMSlinregpull,
 %              SMSscabank45
