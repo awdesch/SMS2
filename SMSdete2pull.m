@@ -3,7 +3,10 @@
 % -------------------------------------------------------------------------
 % Quantlet:    SMSdete2pull
 % -------------------------------------------------------------------------
-% Description: SMSdete2pull coefficients of determination for pullover sales.
+% Description: It estimates coefficients, F-statistics and coefficients of
+%              determination of three linear models for pullover sales,
+%              first with one regressor, second with two regressors, and
+%              third with three regressors
 % -------------------------------------------------------------------------
 % Input:       None.
 % -------------------------------------------------------------------------
@@ -49,7 +52,9 @@
 %     0.9067
 %  
 % -------------------------------------------------------------------------
-% Keywords:    linear model, linear regression, least squares, R-squared
+% Keywords:    linear, linear model, linear regression, least-squares, R-squared
+%              regression, F test, F-statistic, F-test, test, summary,
+%              statistics
 % -------------------------------------------------------------------------
 % See also:    SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull,
 %              SMSscabank45, SMScovbank
@@ -62,7 +67,7 @@ close all
 clc
 
 
-load pullover.dat
+load pullover.dat        % load data
 
 data = pullover;
 y    = data(:,1);        % sales
@@ -105,5 +110,3 @@ disp(stats234(2:4))
 
 disp('R-squared: Three explanatory variables:')
 disp(stats234(1))
-
-
