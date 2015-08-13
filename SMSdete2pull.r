@@ -3,16 +3,11 @@
 # -------------------------------------------------------------------------
 # Quantlet:    SMSdete2pull
 # -------------------------------------------------------------------------
-# Description: SMSdete2pull computes coefficients, F-statistics, as well as
-#              R-squared values of three linear models for pullover sales,
-#              first with one regressor, second with two regressors, and
-#              third with three regressors.
-#              R-squared is a measure for model comparison of
-#              nested models. The model with three explanatory variables
-#              has highest value of the coefficient of determination. The
-#              model with only one explanatory variables performes worst.
-# -------------------------------------------------------------------------
-# Input:       None.
+# Description: Computes coefficients, F-statistics, as well as R-squared values of three linear models for
+#              pullover sales, first with one regressor, second with two regressors, and third with three regressors.
+#              R-squared is a measure for model comparison of nested models. The model with three explanatory variables
+#              has highest value of the coefficient of determination.
+#              The model with only one explanatory variables performes worst.
 # -------------------------------------------------------------------------
 # Output:      Tables of estimated coefficients, F-test and R-squared.
 # -------------------------------------------------------------------------
