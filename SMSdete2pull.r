@@ -5,7 +5,10 @@
 # -------------------------------------------------------------------------
 # Description: SMSdete2pull computes coefficients of different linear 
 #              models for pullover sales, F-statistics, as well as R-squared
-#              values.
+#              values. R-squared is a measure for model comparison of
+#              nested models. The model with three explanatory variables
+#              has highest value of the coefficient of determination. The
+#              model with only one explanatory variables performes worst.
 # -------------------------------------------------------------------------
 # Input:       None.
 # -------------------------------------------------------------------------
@@ -82,8 +85,9 @@
 #     0.9067102
 #  
 # -------------------------------------------------------------------------
-# Keywords:    R-squared, least squares, linear model, linear regression,
-#              F-statistic
+# Keywords:    linear, linear model, linear regression, least-squares, R-squared
+#              regression, F test, F-statistic, F-test, test, summary,
+#              statistics
 # -------------------------------------------------------------------------
 # See also:    SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull,
 #              SMSscabank45, SMScovbank
