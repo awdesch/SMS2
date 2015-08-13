@@ -41,7 +41,7 @@
 % -------------------------------------------------------------------------
 % Keywords:    covariance, eigenvalues, spectral decomposition,
 %              decomposition, eigenvalue decomposition, multivariate,
-%              multi dimensional, variance, transformation
+%              multi dimensional, variance, transformation, Covariance
 % -------------------------------------------------------------------------
 % See also:    SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull,
 %              SMSscabank45
