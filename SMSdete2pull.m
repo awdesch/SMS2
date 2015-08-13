@@ -6,7 +6,10 @@
 % Description: It estimates coefficients, F-statistics and coefficients of
 %              determination of three linear models for pullover sales,
 %              first with one regressor, second with two regressors, and
-%              third with three regressors
+%              third with three regressors.  R-squared is a measure for 
+%              model comparison of nested models. The model with three explanatory
+%              variables has highest value of the coefficient of determination. The
+%              model with only one explanatory variables performes worst.
 % -------------------------------------------------------------------------
 % Input:       None.
 % -------------------------------------------------------------------------
