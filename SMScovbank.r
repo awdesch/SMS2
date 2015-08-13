@@ -15,7 +15,7 @@
 # ---------------------------------------------------------------------
 # Keywords:     covariance, eigenvalues, spectral decomposition,
 #               multivariate, multi dimensional, variance, transformation,
-#               decomposition, eigenvalue decomposition
+#               decomposition, eigenvalue decomposition, Covariance
 # ---------------------------------------------------------------------
 # Inputs:       None
 # ---------------------------------------------------------------------
