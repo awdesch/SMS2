@@ -77,3 +77,6 @@ disp(stats24(2:4))
 
 disp('R-squared: One explanatory variable:')
 disp(stats24(1))
+
+
+
