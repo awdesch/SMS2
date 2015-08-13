@@ -3,11 +3,10 @@
 # ---------------------------------------------------------------------
 # Quantlet:     SMScovbank 
 # ---------------------------------------------------------------------
-# Description:  It calculates the covariance matrix
-#               (and eigevalues) of the counterfeit bank notes
-#               (observations 101-200) from the bank2 dataset (bank2.rda)
-#               after they were lineary transformed by a vector
-#               a = (1, 1, 1, 1, 1, 1)'.
+# Description:  It calculates the covariance matrix (and eigevalues)
+#              of the Swiss Bank (bank2.dat) dataset and the variance of
+#              the counterfeit bank notes (observations 101-200) after they 
+#              were lineary transformed by a vector a = (1, 1, 1, 1, 1, 1)'.
 # ---------------------------------------------------------------------
 # Usage:        -
 # ---------------------------------------------------------------------
