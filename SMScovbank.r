@@ -15,7 +15,8 @@
 #               SMSlinregpull, SMSscabank45
 # ---------------------------------------------------------------------
 # Keywords:     covariance, eigenvalues, spectral decomposition,
-#               multivariate, multi dimensional, variance, transformation
+#               multivariate, multi dimensional, variance, transformation,
+#               decomposition, eigenvalue decomposition
 # ---------------------------------------------------------------------
 # Inputs:       None
 # ---------------------------------------------------------------------
