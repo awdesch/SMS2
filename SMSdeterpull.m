@@ -36,7 +36,9 @@
 % R-squared: One explanatory variable:
 %     0.4207
 % -------------------------------------------------------------------------
-% Keywords:    linear model, linear regression, least squares, R-squared
+% Keywords:    linear, linear model, linear regression, least-squares, R-squared
+%              regression, F test, F-statistic, F-test, test, summary,
+%              statistics
 % -------------------------------------------------------------------------
 % See also:    SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull,
 %              SMSscabank45, SMScovbank
@@ -77,6 +79,3 @@ disp(stats24(2:4))
 
 disp('R-squared: One explanatory variable:')
 disp(stats24(1))
-
-
-
