@@ -5,11 +5,12 @@
 # -------------------------------------------------------------------------
 # Description: SMSdeterpull compares linear regression of  sales (X1) on 
 #              price and advert (X2, X3) and price and ass. hours (x2,x4)
-#              from the pullovers data set ("pullover.dat"). It produces the
+#              from the pullovers data set ("pullover.rda"). It produces the
 #              summary statistics of each model and the corresponding ANOVA.
 # -------------------------------------------------------------------------
-# Keywords:    linear model, linear regression, least squares, R-squared,
-#              anova
+# Keywords:    linear, linear model, linear regression, least-squares, R-squared
+#              regression, F test, F-statistic, F-test, test, summary,
+#              statistics
 # -------------------------------------------------------------------------
 # See also:    SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull,
 #              SMSscabank45, SMScovbank
@@ -89,16 +90,16 @@
 # -------------------------------------------------------------------------
 
 # clear variables and close windows
-# rm(list=ls(all=TRUE))
-# graphics.off()
+rm(list=ls(all=TRUE))
+graphics.off()
 
-# setwd("/...") # please change your working directory
-load("pullover.rda")
+# setwd("/...")           # please change your working directory
+load("pullover.rda")      # load data
 
 lm1=lm(Sales~Price+Advertisement,data=pullover)
-anova(lm1)   #analysis of variance for lm1
-summary(lm1) #summary statistics for lm1
+anova(lm1)                # analysis of variance for lm1
+summary(lm1)              # summary statistics for lm1
 
 lm2=lm(Sales~Price+Hours,data=pullover)
-anova(lm2)   #anova table for lm2
-summary(lm2) #summary stat for lm2
+anova(lm2)                # anova table for lm2
+summary(lm2)              # summary stat for lm2
