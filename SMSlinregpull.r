@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------
 # Quantlet:     SMSlinregpull
 # ---------------------------------------------------------------------
-# Description:  SMSlinregpull computes a linear regression of sales (X1) 
+# Description:  It computes a linear regression of sales (X1) 
 #               on price (X2) from the pullovers data set 
 #               (pullover.rda). It checks for outliers using a rule on
 #               standardized residuals and computes the same model for
@@ -27,7 +27,8 @@
 # Output:       Linear regression of sales (X1) on price (X2) from the
 #               pullovers data set (pullover.rda).
 # ---------------------------------------------------------------------
-# Example:      -
+# Example:      Scatterplot of pullover data with a regression line with
+#               and without outliers, and a boxplot
 # ---------------------------------------------------------------------
 # Author:       Zdenek Hlavka
 # ---------------------------------------------------------------------
