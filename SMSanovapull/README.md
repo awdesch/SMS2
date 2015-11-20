@@ -5,6 +5,7 @@
 
 
 ```yaml
+
 Name of Quantlet: SMSanovapull
 
 Published in: Multivariate Statistics: Exercises and Solutions
@@ -39,7 +40,8 @@ heteroskedasticity, test, Testing'
 
 See also: 'SMScovbank, SMSdete2pull, SMSdeterpull, SMSlinregpull, SMSscabank45'
 
-Author: Awdesch Melzer
+Author[r]: Dana Chromikova
+Author[m]: Awdesch Melzer
 
 Submitted:  
 
@@ -183,9 +185,8 @@ Example[m]: 'Regression:
  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
  Residual standard error: 2.417 on 27 degrees of freedom
- Multiple R-squared:  0.3942,	Adjusted R-squared:  0.3493 
+ Multiple R-squared:  0.3942, Adjusted R-squared:  0.3493 
  F-statistic: 8.783 on 2 and 27 DF,  p-value: 0.001153'
-
 ```
 
 

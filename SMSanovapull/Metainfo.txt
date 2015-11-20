@@ -33,7 +33,8 @@ heteroskedasticity, test, Testing'
 
 See also: 'SMScovbank, SMSdete2pull, SMSdeterpull, SMSlinregpull, SMSscabank45'
 
-Author: Awdesch Melzer
+Author[r]: Dana Chromikova
+Author[m]: Awdesch Melzer
 
 Submitted:  
 
