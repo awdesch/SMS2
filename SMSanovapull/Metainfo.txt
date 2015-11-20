@@ -37,7 +37,7 @@ Author: Awdesch Melzer
 
 Submitted:  
 
-Outputs:     Summary statistics for linear regression and ANOVA and boxplot.
+Output:     Summary statistics for linear regression and ANOVA and boxplot.
 
 Example[m]: 'Regression:              
     b =
