@@ -1,0 +1,13 @@
+
+Name of Quantlet: SMSjordandec
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Performs a Jordan decomposition of a symmetric (3 x 3) matrix using its eigenvalues and eigenvectors.'
+
+Keywords: spectral decomposition, eigenvalues, eigenvectors, decomposition, eigenvalue decomposition
+
+See also: 'SMSellipse, SMSjordandec'
+
+Author[r]: Dana Chromikova
+Author[m]: Dana Chromikova, Awdesch Melzer
