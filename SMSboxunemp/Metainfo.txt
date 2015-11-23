@@ -1,0 +1,20 @@
+
+Name of Quantlet: SMSboxunemp
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Produces a boxplot for unemployment data from Germany. Boxplots for East, West and the pooled data are presented. Within each group, East and West, we find rather homogeneously distributed data. By pooling over both groups the variability increases tremendously, and the mean and median diverge as the unrobust mean is directly affected by the high unemployment rates of East German federal states.'
+
+Keywords: boxplot, data visualization, five number summary, graphical representation, mean, median, plot, robust estimation, visualization
+
+See also: 'SMSandcurpopu, SMSboxbank6, SMSboxunemp, SMSboxunemp, SMSdenbank, SMSdenbank, SMSdrafcar, SMSdrafcar, SMSfacenorm, SMSfacenorm, SMShiscar, SMShiscar, SMShisheights, SMShisheights, SMSpcpcar, SMSpcpcar, SMSscanorm2, SMSscanorm3, SMSscanorm3, SMSscapopu, SMSscapopu'
+
+Author[r]: Tomas Marada
+Author[m]: Awdesch Melzer
+
+Submitted:  Fri, August 07 2015 by Awdesch Melzer
+
+Datafile[r]: unemploy.rda
+Datafile[m]: unemploy.dat
+
+Example: 'Produces a boxplot for unemployment data from Germany for the West, the East and the pooled data.'

@@ -1,0 +1,18 @@
+
+Name of Quantlet: SMSscanorm2
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Computes a contour plot and a hexagon plot of simulated multivariate normal random numbers.'
+
+Keywords: 'contour, data visualization, density, graphical representation, hexagon-plot, histogram, kde, kernel, multivariate, multivariate normal, plot, random-number-generation, scatterplot, simulation, standard-normal, visualization'
+
+See also: 'SMSandcurpopu, SMSboxbank6, SMSboxunemp, SMSboxunemp, SMSdenbank, SMSdenbank, SMSdrafcar, SMSdrafcar, SMSfacenorm, SMSfacenorm, SMShiscar, SMShiscar, SMShisheights, SMShisheights, SMSpcpcar, SMSpcpcar, SMSscanorm2, SMSscanorm3, SMSscanorm3, SMSscapopu, SMSscapopu'
+
+Author: Alena Babiakova
+
+Submitted:  Fri, August 07 2015 by Awdesch Melzer
+
+Example: 
+- 'Contour plot of simulated multivariate normal random numbers.'
+- 'hexagon plot of simulated multivariate normal random numbers.'

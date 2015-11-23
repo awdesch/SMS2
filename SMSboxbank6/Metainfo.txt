@@ -1,0 +1,19 @@
+Name of Quantlet: SMSboxbank6
+
+Published in: Multivariate Statistics: Exercises and Solutions Series 
+
+Description: 'It produces boxplots of samples of genuine and counterfeit Swiss bank notes. The boxplots are made for the length of the diagonal (variable x6). Evidently, the genuine bank notes have larger diagonal length, seem to be more symmetric as the median (solid line) and mean (dashed line) are almost overlapping, and the distribution of the genuine bank notes is more narrow that the counterfeit. There are no outliers.'
+
+Keywords:    boxplot, data visualization, five number summary, graphical representation, mean, median, plot, robust estimation, visualization
+
+See also: SMSandcurpopu, SMSboxbank6, SMSboxcar, SMSboxunemp, SMSdenbank, SMSdrafcar, SMSfacenorm, SMShiscar, SMShisheights, SMSpcpcar, SMSscanorm2, SMSscanorm3, SMSscapopu
+
+Author[m]:   Awdesch Melzer
+Author[r]:   Jaroslav Pazdera
+
+Submitted:  Fri, August 07 2015 by Awdesch Melzer
+
+Datafile[r]: bank2.rda
+Datafile[m]: bank2.dat
+
+Example: Boxplots of samples of genuine and counterfeit Swiss bank notes

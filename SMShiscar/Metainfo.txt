@@ -1,0 +1,20 @@
+
+Name of Quantlet: SMShiscar
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Computes 4 histograms of mileage of US, Japanese, and European cars (carc.txt data). The histograms are different w.r.t. the group.'
+
+Keywords: data visualization, empirical, graphical representation, histogram, plot, visualization
+
+See also: 'SMSandcurpopu, SMSboxbank6, SMSboxunemp, SMSboxunemp, SMSdenbank, SMSdenbank, SMSdrafcar, SMSdrafcar, SMSfacenorm, SMSfacenorm, SMShiscar, SMShiscar, SMShisheights, SMShisheights, SMSpcpcar, SMSpcpcar, SMSscanorm2, SMSscanorm3, SMSscanorm3, SMSscapopu, SMSscapopu'
+
+Author[r]: Wolfgang K. Härdle, Zdenek Hlávka, Dedy D. Prastyo
+Author[m]: Wolfgang K. Härdle, Zdenek Hlávka, Dedy D. Prastyo
+
+Submitted:  Fri, August 07 2015 by Awdesch Melzer
+
+Datafile[r]: carc.rda
+Datafile[m]: carc.txt
+
+Example: 'Computes 4 histograms of mileage of US, Japanese, and European cars (carc.txt data). The histograms are different w.r.t. the group.'
