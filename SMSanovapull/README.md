@@ -189,7 +189,8 @@ Example[m]: 'Regression:
  F-statistic: 8.783 on 2 and 27 DF,  p-value: 0.001153'
 ```
 
-
+![Picture1](SMSanovapull.png)
+![Picture2](SMSanovapull1.png)
 
 ```R
 # clear variables and close windows
