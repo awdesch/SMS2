@@ -36,7 +36,10 @@ See also: 'SMScovbank, SMSdete2pull, SMSdeterpull, SMSlinregpull, SMSscabank45'
 Author[r]: Dana Chromikova
 Author[m]: Awdesch Melzer
 
-Submitted:  
+Submitted: 
+
+Datafile[r]: pullover.rda
+Datafile[m]: pullover.dat 
 
 Output:     Summary statistics for linear regression and ANOVA and boxplot.
 

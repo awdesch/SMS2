@@ -18,7 +18,10 @@ SMSlinregpull, SMSscabank45'
 Author[r]: Dana Chromikova
 Author[m]: Awdesch Melzer
 
-Submitted:  
+Submitted: 
+
+Datafile[r]: bank2.rda
+Datafile[m]: bank2.dat 
 
 Output: 'covariance matrix (and eigevalues) of the transformed counterfeit bank notes from bank2 dataset'
 
