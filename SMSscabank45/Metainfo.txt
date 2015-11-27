@@ -1,0 +1,19 @@
+Name of Quantlet: SMSscabank45
+
+Published in: Multivariate Statistics: Exercises and Solutions Series 
+
+Description: 'computes a two dimensional scatterplot of X4 vs. X5 (upper inner frame vs. lower) of the Swiss bank notes data.'
+
+Keywords: 'scatterplot, data visualization, graphical representation, plot, visualization'
+
+See also: 'SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull, SMSscabank45, SMScovbank'
+
+Author[r]:   Zdenek Hlavka
+Author[m]:   Awdesch Melzer
+
+Submitted:  
+
+Datafile[r]: bank2.rda
+Datafile[m]: bank2.dat
+
+Example: 'Two dimensional scatterplot of X4 vs. X5 (upper inner frame vs. lower) of the Swiss bank notes data'

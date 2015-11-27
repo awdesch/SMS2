@@ -1,0 +1,22 @@
+Name of Quantlet: SMSprofplasma
+
+Published in: Multivariate Statistics: Exercises and Solutions Series 
+
+Description: 'Provides a profile analysis of citrate concentrations in plasma.'
+
+Keywords: 'profile, hypothesis-testing, Testing'
+
+See also: 'SMSanovapull, SMSdete2pull, SMSdeterpull, SMSlinregpull, SMSscabank45, SMScovbank'
+
+Author[r]:   Zdenek Hlavka
+Author[m]:   Awdesch Melzer
+
+Submitted:  
+
+Output: Test of different hypotheses
+
+Datafile[r]: plasma.rda
+Datafile[m]: plasma.dat
+
+Example[r]: 'profile analysis of citrate concentrations in plasma'
+Example[m]: 'profile analysis of citrate concentrations in plasma'

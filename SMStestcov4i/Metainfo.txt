@@ -1,0 +1,24 @@
+Name of Quantlet: SMStestcov4i
+
+Published in: Multivariate Statistics: Exercises and Solutions Series 
+
+Description: 'Tests covariance matrices in Härdle & Simar (2015) Exercise 7.18'
+
+Keywords: 'Covariance test, hypothesis-testing, Testing'
+
+See also: 'SMSlinregbank2, SMSlinregvocab, SMSprofil, SMSprofplasma, SMStestcov, SMStestcovwais, SMStestsim, SMStestuscomp'
+
+Author[r]:   Zdenek Hlavka
+Author[m]:   Awdesch Melzer
+
+Example: 'Part A
+   Test statistic:
+   182.2332 
+   Critical Value:
+    18.3070
+ 
+ Part B
+ Test statistic:
+   179.5047
+ Critical Value:
+   18.3070'

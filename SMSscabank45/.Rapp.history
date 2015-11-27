@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------#
+# Book:         SMS#
+# ---------------------------------------------------------------------#
+# Quantlet:     SMSscabank45#
+# ---------------------------------------------------------------------#
+# Description:  SMSscabank45 computes a two dimensional scatterplot of#
+#               X4 vs. X5 (upper inner frame vs. lower) of the Swiss#
+#               bank notes data (bank2.rda).#
+# ---------------------------------------------------------------------#
+# Usage:        -#
+# ---------------------------------------------------------------------#
+# Inputs:       None#
+# ---------------------------------------------------------------------#
+# Output:       Two dimensional scatterplot of X4 vs. X5 (upper inner#
+#               frame vs. lower) of the Swiss bank notes data#
+#               (bank2.rda).#
+# ---------------------------------------------------------------------#
+# Example:      -#
+# ---------------------------------------------------------------------#
+# Author:       -#
+# ---------------------------------------------------------------------#
+# clear variables and close windows#
+rm(list=ls(all=TRUE))#
+graphics.off()#
+# load data#
+load("bank2.rda")#
+# scatterplot#
+plot(bank2[,c(4,5)],main="Swiss bank notes",xlab=expression(X[4]),ylab=expression(X[5]))
+# ---------------------------------------------------------------------#
+# Book:         SMS#
+# ---------------------------------------------------------------------#
+# Quantlet:     SMSscabank45#
+# ---------------------------------------------------------------------#
+# Description:  SMSscabank45 computes a two dimensional scatterplot of#
+#               X4 vs. X5 (upper inner frame vs. lower) of the Swiss#
+#               bank notes data (bank2.rda).#
+# ---------------------------------------------------------------------#
+# Usage:        -#
+# ---------------------------------------------------------------------#
+# Inputs:       None#
+# ---------------------------------------------------------------------#
+# Output:       Two dimensional scatterplot of X4 vs. X5 (upper inner#
+#               frame vs. lower) of the Swiss bank notes data#
+#               (bank2.rda).#
+# ---------------------------------------------------------------------#
+# Example:      -#
+# ---------------------------------------------------------------------#
+# Author:       -#
+# ---------------------------------------------------------------------#
+# clear variables and close windows#
+rm(list=ls(all=TRUE))#
+graphics.off()#
+# set working directory#
+# setwd("C:/...")#
+# load data#
+load("bank2.rda")#
+# scatterplot#
+plot(bank2[,c(4,5)],main="Swiss bank notes",xlab=expression(X[4]),ylab=expression(X[5]))
