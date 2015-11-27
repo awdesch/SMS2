@@ -1,0 +1,15 @@
+Name of Quantlet: SMSlinregbank2
+
+Published in: Multivariate Statistics: Exercises and Solutions Series 
+
+Description: 'Compares a lasso shrinkage regression with ridge regression'
+
+Keywords: 'lasso, ridge regression, lasso shrinkage'
+
+See also: 'SMSlassocar, SMSlassologit, SMSlinregcar, SMSlinregcar2, SMSlogitbankrupt'
+
+Author: Zdenek Hlavka
+
+Datafile: carc.rda
+
+Example[r]: 'Comparison of a lasso shrinkage regression with ridge regression'

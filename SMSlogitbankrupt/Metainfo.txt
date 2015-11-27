@@ -1,0 +1,15 @@
+Name of Quantlet: SMSlogitbankrupt
+
+Published in: Multivariate Statistics: Exercises and Solutions Series 
+
+Description: 'computes a logistic regression of bankruptcy data set'
+
+Keywords: 'graphical representation, visualization, multivariate analysis, multivariate, logit, logistic, GLM, regression'
+
+See also: 'SMSlassocar, SMSlassologit, SMSlassoridge, SMSlinregcar, SMSlinregcar2, SMSlogitbankrupt'
+
+Author:   Zdenek Hlavka
+
+Datafile: bankruptcy.rda
+
+Example: 'Logistic regression of bankruptcy data set with interaction terms and without'
