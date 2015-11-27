@@ -1,0 +1,18 @@
+
+Name of Quantlet: SMSdecobank
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Performs the factorial analysis for Swiss bank notes data set by first, standardizing the data and then employing singular value decomposition.'
+
+Keywords: analysis, dimension reduction, eigenvalues, eigenvectors, empirical, factorial, factorial decomposition, graphical representation, plot, scale, scaling, singular value, spectral decomposition, standardization, standardize, svd, transformation, visualization
+
+See also: 'SMSdecotime, SMSdecobank, SMSdecofood'
+
+Author[r]: Awdesch Melzer
+Author[m]: Awdesch Melzer
+
+Datafile[r]: bank2.rda
+Datafile[m]: bank2.dat
+
+Example: 'Visualization of variables and individuals after dimension reduction.'

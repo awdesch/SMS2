@@ -1,0 +1,18 @@
+
+Name of Quantlet: SMSdecofood
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Standardizes the data first and performs a singular value decomposition on the transformed French food data. Resulting coordinates are plotted for the first two largest eigenvalues and corresponding eigenvectors in a two dimensional space.'
+
+Keywords: analysis, dimension reduction, eigenvalues, eigenvectors, empirical, factorial, factorial decomposition, graphical representation, plot, scale, scaling, singular value, spectral decomposition, standardization, standardize, svd, transformation, visualization
+
+See also: 'SMSdecotime, SMSdecobank, SMSdecofood'
+
+Author[r]: Zdenek Hlavka
+Author[m]: Norman Duckwitz
+
+Datafile[r]: food.rda
+Datafile[m]: food.csv
+
+Example: 'Visualization of food and family types after dimension reduction.'
