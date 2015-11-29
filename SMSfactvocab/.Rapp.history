@@ -1,0 +1,46 @@
+# ----------------------------------------------------------------------------#
+# Book:	        SMS#
+# ----------------------------------------------------------------------------#
+# Quantlet:     SMSfactvocab#
+# ----------------------------------------------------------------------------#
+# Description:	SMSfactvocab calculates factor scores for the vocabulary #
+#               data set, which contains the test scores of 64 pupils from#
+#               the eigth through eleventh grade levels. For each pupil we#
+#               have one test score per grade which leads to a#
+#               4-dimensional data set. However, after perfoming LR test,#
+#               we observe, that H0 k=1 factor cannot be rejected at a#
+#               p-value of 0.457. Estimated factor loadings, communalities#
+#               and specific variances are presented in a table. A plot of#
+#               factor scores for the pupils is shown. The values on the #
+#               vertical axis are randomly chosen so that the plotted#
+#               numbers are readable. The best values were achieved in#
+#               observations 36 and 38 whereas the 5th observation seems#
+#               to be extremely bad.#
+# ----------------------------------------------------------------------------#
+# Usage:		-#
+# ----------------------------------------------------------------------------#
+# Author:		Petra Cernayova, Zdenek Hlavka#
+# ----------------------------------------------------------------------------#
+# See also:	    SMSfactbank, SMSfactfood, SMSfacthletic, SMSfactsigma,#
+#               SMSfactuscrime, SMSfactvocab#
+# ----------------------------------------------------------------------------#
+# Keywords:     varimax, rotation, factor analysis, factor scores, factor#
+#               loadings, communalities, specific variances#
+# ----------------------------------------------------------------------------#
+#
+# clear workspace#
+# graphics.off()#
+# rm(list=ls(all=TRUE))#
+# setwd("C:/...") #set your working directory, create there a subdirectory 'data' for the datasets#
+#
+library(SMSdata)#
+data(vocabulary)#
+#
+voc       = vocabulary[,1:4] #
+factvocab = factanal(voc, factors=1,scores="Bartlett")#
+facttable = cbind(factvocab$loadings, (1 - factvocab$uniquenesses),factvocab$uniqueness)#
+colnames(facttable) = c("q1", "Communalities", "Specific variances")#
+print(round(facttable,4))#
+# xtable(facttable,digits=4)#
+plot(factanal(voc, factors=1,scores="Bartlett")$scores,type="n",xlab="",ylab="Score")#
+text(factanal(voc, factors=1,scores="Bartlett")$scores,rownames(voc))
