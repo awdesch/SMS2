@@ -1,0 +1,17 @@
+Name of Quantlet: SMSnmdsuscrime
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Computes the 2D map of US crimes using nonmetric multidimensional scaling using isotonic regression and the iterative Shepard-Kruskal algorithm.'
+
+Keywords: 'multidimensional scaling, mds, nonmetric, distance, Euclidean, correlation, Shepard-Kruskal algorithm, isotonic regression'
+
+See also: 'SMSmdsbank, SMSnmdsathlesub, SMSnmdsathletic, SMSnmdscarm, SMSnmdsuscrime, SMSnmdsushealth'
+
+Author[r]: Petra Cernayova, Zdenek Hlavka
+Author[m]: Awdesch Melzer
+
+Datafile[r]: uscrime.rda
+Datafile[m]: uscrime.dat
+
+Example: 'Plot of the configuration after nMDS using Shepard-Kruskal algorithm'

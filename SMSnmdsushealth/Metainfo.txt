@@ -1,0 +1,15 @@
+Name of Quantlet: SMSnmdsushealth
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'computes the nonmetric MDS for the original, 0-1 scaled and standardized U.S. health data set. It employs the Shepard-Kruskal algorithm and isotonic regression.'
+
+Keywords: 'multidimensional scaling, mds, nonmetric, distance, Euclidean, correlation, Shepard-Kruskal algorithm, isotonic regression'
+
+See also: 'SMSmdsbank, SMSnmdsathlesub, SMSnmdsathletic, SMSnmdscarm, SMSnmdsuscrime, SMSnmdsushealth'
+
+Author: Awdesch Melzer
+
+Datafile: uscrime.rda
+
+Example: 'Plots of first and last iterations of nonmetric MDS for the  original, 0-1 scaled and standardized U.S. health data set'
