@@ -1,0 +1,17 @@
+Name of Quantlet: SMScorrcarm
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Performs a correspondence analysis for the car data, shows the eigenvalues of the singular value decomposition of the chi-matrix and displays graphical its factorial decomposition.'
+
+Keywords: 'correspondence analysis, SVD, singular value decomposition, factorial decomposition'
+
+See also: 'SMScorrcarm, SMSchi2bac, SMScorrcrime, SMScorrhealth, SMScorrfood'
+
+Author[r]: Zdenek Hlavka Awdesch Melzer
+Author[m]: Awdesch Melzer
+
+Datafile[r]: carmean2.rda
+Datafile[m]: carmean2.dat
+
+Example: 'Factorial decomposition for car data'

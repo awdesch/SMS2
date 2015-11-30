@@ -1,0 +1,17 @@
+Name of Quantlet: SMScorrhealth
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'performs a correspondence analysis for the US health, shows the eigenvalues of the singular value decomposition of the chi-matrix,projections on the first 3 axes and absolute contributions. It also displays graphical the factorial decomposition, the regions are selected in 4 groups (Northeast(blue), Midwest(green), South(cyan) and West(red)).'
+
+Keywords: 'correspondence analysis, eigenvalues, singular value decomposition, chi-matrix, projections, factorial decomposition'
+
+See also: 'SMScorrcarm, SMSchi2bac, SMScorrcrime, SMScorrhealth, SMScorrfood'
+
+Author[r]: Zdenek Hlavka
+Author[m]: Awdesch Melzer
+
+Datafile[r]: ushealth.rda
+Datafile[m]: ushealth.dat
+
+Example: 'Factorial decomposition for US health data'
