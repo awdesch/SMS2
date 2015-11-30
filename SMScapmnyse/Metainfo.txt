@@ -1,0 +1,17 @@
+Name of Quantlet: SMScapmnyse
+
+Published in: Multivariate Statistics: Exercises and Solutions
+
+Description: 'Produces plot of regression lines for 3 NYSE traded stocks according to CAPM'
+
+Keywords: 'CAPM, linear model'
+
+See also: 'SMScapmnyse, SMSportfol'
+
+Author[r]: Kristyna Sionova
+Author[m]: Awdesch Melzer
+
+Datafile[r]: nyse.rda
+Datafile[m]: nyse.dat
+
+Example: 'plot of regression lines for 3 NYSE traded stocks according to CAPM'
