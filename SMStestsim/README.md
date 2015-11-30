@@ -33,10 +33,6 @@ Example: 'test statistic if covariance known
 
 ```
 
-
-![Picture1](<PIC_NAME>.png)
-
-
 ```R
 # clear variables, close windows
 rm(list=ls(all=TRUE))
