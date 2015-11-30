@@ -1,4 +1,4 @@
-Name of Quantlet: SMSlinregbank2
+Name of Quantlet: SMSlassoridge
 
 Published in: Multivariate Statistics: Exercises and Solutions Series 
 
