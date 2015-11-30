@@ -8,7 +8,7 @@ Keywords: 'correspondence analysis, SVD, singular value decomposition, factorial
 
 See also: 'SMScorrcarm, SMSchi2bac, SMScorrcrime, SMScorrhealth, SMScorrfood'
 
-Author[r]: Zdenek Hlavka Awdesch Melzer
+Author[r]: Zdenek Hlavka, Awdesch Melzer
 Author[m]: Awdesch Melzer
 
 Datafile[r]: carmean2.rda
