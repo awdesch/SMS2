@@ -1,27 +1,3 @@
-% ----------------------------------------------------------------------------
-% SMS:          Multivariate Statistics: Exercises and Solutions Series 
-% ----------------------------------------------------------------------------
-% Quantlet:     SMSclus8pd
-% ----------------------------------------------------------------------------
-% Description:  SMSclus8pd employs the single linkage method 
-%               using simple Euclidean distance and squared Euclidean 
-%               distance matrices to perform a cluster
-%               analysis on an 8 points example. Three plots are generated.
-%               First plot schones the 8 points, second plot the dendrogram 
-%               for squared Euclidean distance and single linkage while the
-%               third plot presents the dendrogram for Euclidean distance
-%               using single linkage algorithm.
-% ----------------------------------------------------------------------------
-% Author:       Zdenek Hlavka, Awdesch Melzer
-% ----------------------------------------------------------------------------
-% Keywords:     cluster analysis, distance, euclidean, euclidean norm,
-%               linkage, single linkage, dendrogram
-% ----------------------------------------------------------------------------
-% See also:     SMSclus8p, SMSclus8pd, SMSclusbank, SMSclusbank2,
-%               SMSclusbank3, SMScluscomp, SMScluscrime, SMScluscrimechi2,
-%               SMSclushealth
-% ----------------------------------------------------------------------------
-
 % clear cache and close windows
 clear all
 close all

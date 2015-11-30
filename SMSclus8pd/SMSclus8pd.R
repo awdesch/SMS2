@@ -1,27 +1,3 @@
-# ----------------------------------------------------------------------------
-# SMS:          Multivariate Statistics: Exercises and Solutions Series 
-# ----------------------------------------------------------------------------
-# Quantlet:     SMSclus8pd
-# ----------------------------------------------------------------------------
-# Description:  SMSclus8pd employs the ward to squared Euclidean and single  
-#               linkage method using simple Euclidean distance and squared Euclidean 
-#               distance matrices to perform a cluster
-#               analysis on an 8 points example. Three plots are generated.
-#               First plot schones the 8 points, second plot the dendrogram 
-#               for squared Euclidean distance and single linkage while the
-#               third plot presents the dendrogram for Euclidean distance
-#               using single linkage algorithm.
-# ----------------------------------------------------------------------------
-# Author:       Zdenek Hlavka, Awdesch Melzer, Tomas Hovorka, Simon Trimborn
-# ----------------------------------------------------------------------------
-# Keywords:     cluster analysis, distance, euclidean, euclidean norm,
-#               linkage, single linkage, dendrogram
-# ----------------------------------------------------------------------------
-# See also:     SMSclus8p, SMSclus8pd, SMSclusbank, SMSclusbank2,
-#               SMSclusbank3, SMScluscomp, SMScluscrime, SMScluscrimechi2,
-#               SMSclushealth
-# ----------------------------------------------------------------------------
-
 # clear cache and close windows
 graphics.off()
 rm(list=ls(all=TRUE))
@@ -42,7 +18,7 @@ segments(eight[7,1],eight[7,2 ],eight[8,1 ],eight[8,2],lwd=2)
 segments(eight[8,1],eight[8,2 ],eight[6,1 ],eight[6,2],lwd=2)
 points(eight, pch=21, cex=3, bg="white")
 text(eight,as.character(1:8),col="red3",xlab="first coordinate", ylab="second coordinate", main="8 points",cex=1.5)
-plot(hclust(dist(eight,method="euclidean")^2,method="ward"),ylab="squared Euclidean distance", xlab="",sub="",main="Ward dendrogram") 
+plot(hclust(dist(eight,method="euclidean")^2,method="ward.D"),ylab="squared Euclidean distance", xlab="",sub="",main="Ward dendrogram") 
 
 
 dev.new()

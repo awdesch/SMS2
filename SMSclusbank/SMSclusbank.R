@@ -16,5 +16,5 @@ text(pcb$x[,1:2],labels=row.names(bank))               # principal component ana
 
 # plot squared euclidean distance and ward algorithm.
 par(mar=c(2, 4, 4, 2) +  0.1)
-plot(hclust(dist(bank,method="euclidean")^2,method="ward"),ylab="squared Euclidean distance",xlab="",sub="",main="Ward dendrogram") #cluster analysis using Ward algorithm and squared Euclidean distance
+plot(hclust(dist(bank,method="euclidean")^2,method="ward.D"),ylab="squared Euclidean distance",xlab="",sub="",main="Ward dendrogram") #cluster analysis using Ward algorithm and squared Euclidean distance
 par(opar)

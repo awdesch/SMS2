@@ -19,7 +19,7 @@ segments(eight[8,1],eight[8,2 ],eight[6,1 ],eight[6,2],lwd=2)
 points(eight, pch=21, cex=2.7, bg="white")
 text(eight,as.character(1:8),col="red3",xlab="first coordinate", ylab="second coordinate", main="8 points",cex=1)
 
-plot(hclust(dist(eight,method="euclidean")^2,method="ward"),ylab="squared Euclidean distance", xlab="",sub="",main="Ward dendrogram") 
+plot(hclust(dist(eight,method="euclidean")^2,method="ward.D"),ylab="squared Euclidean distance", xlab="",sub="",main="Ward dendrogram") 
 
 dev.new()
 # plot eight points using complete linkage

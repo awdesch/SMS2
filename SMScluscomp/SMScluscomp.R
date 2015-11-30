@@ -49,7 +49,7 @@ rm(list=ls(all=TRUE))
  rownames(xx)=label1
 # second part
  d     = dist(xx,method="manhattan")
- tree  = hclust(d,method="ward")
+ tree  = hclust(d,method="ward.D")
  # show the dendrogram 
  dev.new()
  opar  = par(c(1,1),cex.axis=1.2,cex.lab=1.4,cex.main=1.4,cex=0.5)
