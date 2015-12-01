@@ -25,7 +25,7 @@ Example[r]: 'Comparison of a lasso shrinkage regression with ridge regression'
 ```
 
 
-![Picture1]( SMSlassoridge .png)
+![Picture1]( SMSlassoridge.png)
 
 
 ```R
