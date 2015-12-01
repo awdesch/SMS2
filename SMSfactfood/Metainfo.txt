@@ -20,4 +20,4 @@ Example: 'Estimated factor loadings, communalities
 and specific variances are presented in a table, plots of
 varimax and manually rotated factor loadings are given'
 
-Subroutines[m]: 'factiter, factpf'
+Subfunctions[m]: 'factiter, factpf'

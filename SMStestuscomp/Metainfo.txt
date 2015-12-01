@@ -34,4 +34,4 @@ Example: 'hotelling test results
          -527         791
          -102          20'
 
-Subroutines[m]: hotellingstat
+Subfunctions[m]: hotellingstat

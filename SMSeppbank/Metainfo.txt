@@ -17,4 +17,4 @@ Datafile[m]: bank2.dat
 
 Example: 'Projection pursuit for Swiss bank notes data'
 
-Subroutines[m]: ppf, ppexample, sphere
+Subfunctions[m]: ppf, ppexample, sphere
