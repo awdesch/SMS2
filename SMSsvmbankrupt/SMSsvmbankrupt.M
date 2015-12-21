@@ -20,5 +20,5 @@ train_data = [data.Profitability,data.Leverage]%,data.Bankruptcy];    %training 
 for i = 1:length(sgm)
     figure(i)
     svmStruct = svmtrain(train_data,group,'ShowPlot',true,'kernel_function','rbf','rbf_sigma',sgm(i),'boxconstraint',C(i));
-    title(['SVM with ' sgm(i) 'sigma'])
+     title( ['SVM with sigma ' num2str(sgm(i)) ' and C ' num2str(C(i))])
 end
