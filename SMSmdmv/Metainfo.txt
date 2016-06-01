@@ -16,6 +16,9 @@ Input :
 - 'rho- correlation'
 - 'mean_x- mean of x vector'
 - 'mean_y- mean of y vector'
+- 'rho- correlation'
+- 'mean_x- mean of x vector'
+- 'mean_y- mean of y vector'
 
 Output :
 - 'Plot for the values of two bivariate normally distributed random variables'
