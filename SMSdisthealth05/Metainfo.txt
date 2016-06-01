@@ -6,8 +6,8 @@ Description : 'Calculates distance matrices for Maine, New Hampshire and New Yor
 from the US health 2005 data set. The distance measures are Euclidean, 
 Manhattan and maximum distance.'
 
-Keywords : ‘cluster-analysis, distance, euclidean, euclidean-distance-matrix, 
-manhattan metric’ 
+Keywords : 'cluster-analysis, distance, euclidean, euclidean-distance-matrix, 
+manhattan metric' 
 
 Author : Awdesch Melzer, Simon Trimborn
 

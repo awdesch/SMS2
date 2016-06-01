@@ -20,7 +20,7 @@ Submitted : Fri, August 22 2014 by Awdesch Melzer
 
 Example : 
 
-- principal components of the clusters
+- 'principal components of the clusters'
 
-- ward dendrogram
+- 'ward dendrogram'
 

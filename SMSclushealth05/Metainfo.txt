@@ -23,6 +23,6 @@ Datafiles : ushealth05.csv
 
 Example : 
 
-- ward dendrogram of 56 US states and associated regions for 9 health related causes of death
+- 'ward dendrogram of 56 US states and associated regions for 9 health related causes of death'
 
-- principal components of 4 clusters for 56 US states and associated regions using 9 health related causes of death
+- 'principal components of 4 clusters for 56 US states and associated regions using 9 health related causes of death'
