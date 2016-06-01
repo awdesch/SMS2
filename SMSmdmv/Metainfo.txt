@@ -12,7 +12,7 @@ Author : Simon Trimborn
 Submitted : Fri, August 22 2014 by Awdesch Melzer
 
 Input :
-- n- number of observations
+- 'n- number of observations'
 - rho- correlation
 - mean_x- mean of x vector
 - mean_y- mean of y vector
