@@ -1,7 +1,7 @@
 
 Name of Quantlet: SMSandcurpopu
 
-Published in: Multivariate Statistics: Exercises and Solutions
+Published in: 'Multivariate Statistics: Exercises and Solutions'
 
 Description: 'Produces plot of Andrews curves from the annual population dataset (annualpopu.rda) to detect homogeneous subgroups and multidimensional outliers. Apparently, there are 2 subgroups, years 1975 to 1979 form a cluster with higher values, years 1970 to 1974 form a group with lower values.'
 
@@ -17,4 +17,4 @@ Submitted:  Fri, August 07 2015 by Awdesch Melzer
 Datafile[r]: annualpopu.rda
 Datafile[m]: annualpopu.dat
 
-Example: Andrew's curves of annual population data detecting two subgroups: 1975-1979 with higher values and 1970-1974 with lower values of unemployment
+Example: 'Andrew''s curves of annual population data detecting two subgroups: 1975-1979 with higher values and 1970-1974 with lower values of unemployment'
